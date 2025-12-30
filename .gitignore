@@ -1,0 +1,148 @@
+# ======================
+# Java 项目忽略规则
+# ======================
+# 编译后的类文件
+*.class
+# 日志文件
+*.log
+# 字节码文件
+*.ctxt
+# 临时目录
+.mtj.tmp/
+# 打包文件
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# JVM崩溃日志
+hs_err_pid*
+replay_pid*
+
+
+# ======================
+# Python 项目忽略规则
+# ======================
+# 字节码缓存目录
+__pycache__/
+# 编译后的Python文件
+*.py[cod]
+*$py.class
+# 编译后的扩展文件
+*.so
+# 虚拟环境目录
+.Python
+env/
+# 构建/分发目录
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# 依赖库目录
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+# 包信息文件
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ======================
+# JavaScript 项目忽略规则
+# ======================
+# 依赖包目录
+node_modules/
+# 包管理日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# 测试覆盖率目录
+coverage/
+# 构建产物目录
+build/
+# 系统隐藏文件
+.DS_Store
+# 证书文件
+*.pem
+# 环境配置文件
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# ======================
+# 前端通用忽略规则（HTML/CSS）
+# ======================
+# 编辑器临时文件
+*.swp
+*.swo
+# 浏览器缓存文件
+*.browsercache
+# 构建工具临时文件
+.tmp/
+.temp/
+# 压缩后的资源文件（如果手动管理）
+*.min.css
+*.min.js
+
+
+# ======================
+# Vue 项目忽略规则
+# ======================
+# 依赖包
+node_modules/
+# 打包产物
+dist/
+# 测试报告
+coverage/
+# 环境配置
+.env*
+!.env.example
+# IDE配置
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ======================
+# React 项目忽略规则
+# ======================
+# 依赖包
+node_modules/
+# 打包产物
+build/
+# 测试报告
+coverage/
+# 环境配置
+.env*
+!.env.example
+# IDE配置
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
